@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'autopia';
+    src: url('web-font/autopia/autopia-bold-webfont.eot');
+    src: url('web-font/autopia/autopia-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/autopia/autopia-bold-webfont.woff2') format('woff2'),
+         url('web-font/autopia/autopia-bold-webfont.woff') format('woff'),
+         url('web-font/autopia/autopia-bold-webfont.ttf') format('truetype'),
+         url('web-font/autopia/autopia-bold-webfont.svg#autopiabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'charis';
+    src: url('web-font/CharisSIL-R/charissil-r-webfont.eot');
+    src: url('web-font/CharisSIL-R/charissil-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/CharisSIL-R/charissil-r-webfont.woff2') format('woff2'),
+         url('web-font/CharisSIL-R/charissil-r-webfont.woff') format('woff'),
+         url('web-font/CharisSIL-R/charissil-r-webfont.ttf') format('truetype'),
+         url('web-font/CharisSIL-R/charissil-r-webfont.svg#charis_silregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'clearsans';
+    src: url('web-font/ClearSans-Regular/clearsans-regular-webfont.eot');
+    src: url('web-font/ClearSans-Regular/clearsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/ClearSans-Regular/clearsans-regular-webfont.woff2') format('woff2'),
+         url('web-font/ClearSans-Regular/clearsans-regular-webfont.woff') format('woff'),
+         url('web-font/ClearSans-Regular/clearsans-regular-webfont.ttf') format('truetype'),
+         url('web-font/ClearSans-Regular/clearsans-regular-webfont.svg#clear_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'combat';
+    src: url('web-font/Combat/combat-webfont.eot');
+    src: url('web-font/Combat/combat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/Combat/combat-webfont.woff2') format('woff2'),
+         url('web-font/Combat/combat-webfont.woff') format('woff'),
+         url('web-font/Combat/combat-webfont.ttf') format('truetype'),
+         url('web-font/Combat/combat-webfont.svg#combatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eczar';
+    src: url('web-font/Eczar-Bold/eczar-bold-webfont.eot');
+    src: url('web-font/Eczar-Bold/eczar-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/Eczar-Bold/eczar-bold-webfont.woff2') format('woff2'),
+         url('web-font/Eczar-Bold/eczar-bold-webfont.woff') format('woff'),
+         url('web-font/Eczar-Bold/eczar-bold-webfont.ttf') format('truetype'),
+         url('web-font/Eczar-Bold/eczar-bold-webfont.svg#eczarbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fengardo';
+    src: url('web-font/FengardoNeue_Black/fengardoneue_black-webfont.eot');
+    src: url('web-font/FengardoNeue_Black/fengardoneue_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/FengardoNeue_Black/fengardoneue_black-webfont.woff2') format('woff2'),
+         url('web-font/FengardoNeue_Black/fengardoneue_black-webfont.woff') format('woff'),
+         url('web-font/FengardoNeue_Black/fengardoneue_black-webfont.ttf') format('truetype'),
+         url('web-font/FengardoNeue_Black/fengardoneue_black-webfont.svg#fengardo_neueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'lilgrotesk';
+    src: url('web-font/LilGrotesk-Regular/lilgrotesk-regular-webfont.eot');
+    src: url('web-font/LilGrotesk-Regular/lilgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/LilGrotesk-Regular/lilgrotesk-regular-webfont.woff2') format('woff2'),
+         url('web-font/LilGrotesk-Regular/lilgrotesk-regular-webfont.woff') format('woff'),
+         url('web-font/LilGrotesk-Regular/lilgrotesk-regular-webfont.ttf') format('truetype'),
+         url('web-font/LilGrotesk-Regular/lilgrotesk-regular-webfont.svg#lilgroteskregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'manifont';
+    src: url('web-font/manifonfgroteskbold/manifontgroteskbold-webfont.eot');
+    src: url('web-font/manifonfgroteskbold/manifontgroteskbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/manifonfgroteskbold/manifontgroteskbold-webfont.woff2') format('woff2'),
+         url('web-font/manifonfgroteskbold/manifontgroteskbold-webfont.woff') format('woff'),
+         url('web-font/manifonfgroteskbold/manifontgroteskbold-webfont.ttf') format('truetype'),
+         url('web-font/manifonfgroteskbold/manifontgroteskbold-webfont.svg#manifont_groteskbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pressuru';
+    src: url('web-font/pressuru/pressuru-webfont.eot');
+    src: url('web-font/pressuru/pressuru-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/pressuru/pressuru-webfont.woff2') format('woff2'),
+         url('web-font/pressuru/pressuru-webfont.woff') format('woff'),
+         url('web-font/pressuru/pressuru-webfont.ttf') format('truetype'),
+         url('web-font/pressuru/pressuru-webfont.svg#pressururegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'savate';
+    src: url('web-font/savate-regular/savate-regular-webfont.eot');
+    src: url('web-font/savate-regular/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/savate-regular/savate-regular-webfont.woff2') format('woff2'),
+         url('web-font/savate-regular/savate-regular-webfont.woff') format('woff'),
+         url('web-font/savate-regular/savate-regular-webfont.ttf') format('truetype'),
+         url('web-font/savate-regular/savate-regular-webfont.svg#savateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sinkin';
+    src: url('web-font/SinkinSans-400Regular/sinkinsans-400regular-webfont.eot');
+    src: url('web-font/SinkinSans-400Regular/sinkinsans-400regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/SinkinSans-400Regular/sinkinsans-400regular-webfont.woff2') format('woff2'),
+         url('web-font/SinkinSans-400Regular/sinkinsans-400regular-webfont.woff') format('woff'),
+         url('web-font/SinkinSans-400Regular/sinkinsans-400regular-webfont.ttf') format('truetype'),
+         url('web-font/SinkinSans-400Regular/sinkinsans-400regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gapsans';
+    src: url('web-font/GapSansBold/gapsansbold-webfont.eot');
+    src: url('web-font/GapSansBold/gapsansbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web-font/GapSansBold/gapsansbold-webfont.woff2') format('woff2'),
+         url('web-font/GapSansBold/gapsansbold-webfont.woff') format('woff'),
+         url('web-font/GapSansBold/gapsansbold-webfont.ttf') format('truetype'),
+         url('web-font/GapSansBold/gapsansbold-webfont.svg#gap_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body.formulaire{ 
+    background-color: black;
+    margin:0;
+    padding:40px;
+    font-family: 'gapsans';
+    font-size: 25px;
+    color: white;
+}
+
+h1{
+    margin:0;
+
+}
+
+.francais{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    line-height:27px; 
+    margin-bottom: 8px;
+}
+
+.anglais{
+    font-family: 'sinkin';
+    font-size: 18px;
+    color: blue;
+    line-height:22px; 
+    margin-bottom: 10px;
+}
+
+.imagerond{
+    float: right;
+    position: fixed;
+    margin-left: 850px;
+    margin-top: 10px;
+
+}
+
+
+.colonne1, .colonne2{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.asso{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 80px;
+    list-style:none;
+    text-align : right;
+}
+
+.titre{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+    list-style:none;
+    text-align : right;
+}
+
+.soustitre{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+    list-style:none;
+    text-align : right;
+}
+
+.date{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+    list-style:none;
+    text-align : right;
+}
+
+.heure{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+    list-style:none;
+    text-align : right;
+}
+
+.adresse{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
+    list-style:none;
+    text-align : right;
+}
+
+.presentation{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 130px;
+    list-style:none;
+}
+
+.label-pres{
+    font-family: 'sinkin';
+    font-size: 18px;
+    color: blue;
+
+}
+
+
+.logo{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style:none;
+
+}
+
+.valider{
+    font-family: 'gapsans', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style:none;
+}
+
+textarea{
+    margin-top: 12px;
+    resize:none;
+}
+
+
+.instruction{
+    margin-left: 345px;
+    margin-top: 30px;
+
+}
+
+
+.textefrancais{
+    font-family: 'sinkin';
+    font-size: 12px;
+    color: white;
+    line-height:17px; 
+}
+
+.texteanglais{
+    font-family: 'sinkin';
+    font-size: 12px;
+    color: blue;
+    line-height:17px; 
+    margin-top: 10px;
+}
+
+
+.contact{
+    font-family: 'gapsans', sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-top: 500px;
+    list-style:none;
+    position: fixed;
+    text-decoration: underline;
+
+    
+}
+
+.info{
+    font-family: 'gapsans', sans-serif;
+    font-size: 15px;
+    padding-left: 80px;
+    padding-top: 500px;
+    list-style:none;
+    position: fixed;
+    text-decoration: underline;
+
+    
+}
+    
+.container {
+  width: 20cm;
+  margin:auto;
+  height:29cm;
+  /*background: #F00;*/
+  position: relative;
+  /*overflow: hidden;*/
+}
+
+.container >.justify {
+  /*text-align: center;*/
+  font-family: Helvetica, Arial, sans-serif;
+  /*font-size:20%;*/
+  /*width:100%;*/
+  color:#000;
+  max-width:100%;
+  max-height:100%;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+.image {
+  width: 50px;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.fixe{
+    position: absolute;
+}
+.container > .fixe p{
+    width: 400px;
+    text-align: left;
+    font-family: 'gapsans';
+    font-size:80%;
+    margin-left:0px auto;
+    color:#000;
+    padding:0;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
