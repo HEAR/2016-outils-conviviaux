@@ -54,6 +54,22 @@
 				  <input type="radio" name="produit" value="Samsung Galaxy 4">Samsung Galaxy 4<br>
 				  <input type="radio" name="produit" value="Samsung Galaxy 5">Samsung Galaxy 5<br>
 				</div>
+				<div>
+					<select name="produit[]">
+						<option value=""></option>
+					  <option value="1">First</option>
+					  <option value="2">Second</option>
+					  <option value="3">Third</option>
+					</select>
+				</div>
+				<div>
+					<select name="produit[]">
+					<option value=""></option>
+					  <option value="you">First</option>
+					  <option value="hey">Second</option>
+					  <option value="pouet">Third</option>
+					</select>
+				</div>
 		  </div>
 		  <input type="submit" value="valider">	
 		</form>

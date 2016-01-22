@@ -44,7 +44,9 @@
 			</div>
 		<?php } ?>
 			<div class="produit">
-				<h2><?php echo $_POST['produit']; ?></h2>
+			<?php foreach($_POST['produit'] as $produit){?>
+				<h2><?php echo $produit; ?></h2>
+			<?php } ?>
 			</div>
 	</div>
 
